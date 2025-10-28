@@ -8,7 +8,7 @@ class Problem1 {
     public int[] runningSum(int[] nums) {
         //Day 2
         for (int i = 1; i < nums.length; i++) {
-            nums[i] = nums[i] + nums[i - 1];
+            nums[i] += nums[i - 1];
         }
         return nums;
     }
