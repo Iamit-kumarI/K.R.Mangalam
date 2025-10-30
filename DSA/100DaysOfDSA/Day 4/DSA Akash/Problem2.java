@@ -5,7 +5,7 @@
  */
 public class Problem2 {
     public void reverseString(char[] s) {
-        //two pointer approach n/2 tc O(n)
+        //two pointer approach tc O(n)
         int start = 0, end = s.length - 1;
         while (start < end) {
             char temp = s[start];
