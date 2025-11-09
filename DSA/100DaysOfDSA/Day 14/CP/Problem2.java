@@ -5,7 +5,6 @@
 import java.util.HashMap;
 
 public class Problem2 {
-
     public int[] twoSum(int[] nums, int target) {
         // lets do in O(n) using hasmap
         HashMap<Integer, Integer> map = new HashMap<>();
