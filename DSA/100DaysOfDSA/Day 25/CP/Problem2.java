@@ -18,6 +18,6 @@ public class Problem2 {
             start++;
             end--;
         }
-        return true;
+        return true;//j
     }
 }
