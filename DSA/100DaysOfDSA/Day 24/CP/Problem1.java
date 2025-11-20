@@ -4,7 +4,6 @@
 */
 class Problem1 {
     public int binarysearch(int[] arr, int k) {
-        // Code Here
         int index=-1;
         int start=0,end=arr.length-1;
         while(start<=end){
