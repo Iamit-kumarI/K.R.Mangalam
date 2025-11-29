@@ -8,7 +8,7 @@ public class Program9 {
         int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         bst.papulateSorted(nums);
         System.out.println();
-        System.out.print("____________________This Is preOrder Traversal___________________");
+        System.out.print("__________zz__________This Is preOrder Traversal___________________");
         System.out.println();
         bst.preOrderTraversal();
         System.out.println();     

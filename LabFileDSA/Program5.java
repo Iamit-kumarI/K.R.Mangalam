@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Program5 {
     public static void main(String[] args) {
         int[]arr={3,4,6,3,1,6,5};
-        System.out.println(Arrays.toString(insertionSort(arr)));
+        System.out.println("inserttion sort: "+Arrays.toString(insertionSort(arr)));
     }
     public static int[] insertionSort(int []arr){
         for(int i=0;i<arr.length;i++){
