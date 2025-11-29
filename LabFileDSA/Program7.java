@@ -11,8 +11,9 @@ public class Program7 {
         queue.insert(3);
         queue.insert(4);
         queue.insert(5);
-        System.out.println(queue.remove());// is removed from 0 so now 12 from 1 ll be at 0
-        System.out.println(queue.front());//12 is at 0 now
+        System.out.println("pop from queue: "+queue.pop());// is removed from 0 so now 12 from 1 ll be at 0
+        System.out.println("peek from queue: "+queue.peek());//12 is at 0 now
+        System.out.print("Display Queue: ");
         queue.display();
          
     }

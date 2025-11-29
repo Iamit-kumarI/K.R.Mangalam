@@ -13,19 +13,11 @@ public class CustomQueue extends Exception {
         return true;
     }
 
-    public int remove() throws Exception {
+    public int pop() throws Exception {
         if (isEmpty()) {
             throw new Exception("Queue is empty");
         }
         int remove = data[0];
-        /*
-        int tempvar=end;
-        while(tempvar!=0){
-            int temp=data[tempvar-1];
-            data[tempvar-1]=data[tempvar];
-            tempvar-=1;
-        }*/
-        //best way
         for (int i = 1; i <= end; i++) {
             data[i - 1] = data[i];
         }
@@ -33,7 +25,7 @@ public class CustomQueue extends Exception {
         return remove;
     }
 
-    public int front() throws Exception {
+    public int peek() throws Exception {
         if (isEmpty()) {
             throw new Exception("Queue is empty");
         }

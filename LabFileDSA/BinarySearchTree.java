@@ -1,4 +1,3 @@
-import java.lang.Math;
 
 public class BinarySearchTree {
     private class Node {
@@ -76,6 +75,18 @@ public class BinarySearchTree {
         }
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
+    public void preOrderTraversal() {
+        preOrderTraversal(root);
+    }
+
+    private void preOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+        System.out.print(node.getValue() + " ");
+        preOrderTraversal(node.left);
+        preOrderTraversal(node.right);
+    }
     public void inOrderTraversal() {
         inOrderTraversal(root);
     }
@@ -86,5 +97,19 @@ public class BinarySearchTree {
         inOrderTraversal(node.left);
         System.out.print(node.getValue() + " ");
         inOrderTraversal(node.right);
+    }
+    public void postOrderTraversal() {
+        postOrderTraversal(root);
+    }
+
+    private void postOrderTraversal(Node node) {
+        if (node == null) {
+            return;
+        }
+        //System.out.print(node.getValue()+" ");
+        postOrderTraversal(node.left);
+//        System.out.print(node.getValue()+" ");
+        postOrderTraversal(node.right);
+        System.out.print(node.getValue() + " ");
     }
 }

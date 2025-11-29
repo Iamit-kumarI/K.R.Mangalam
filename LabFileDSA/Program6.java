@@ -10,12 +10,13 @@ public class Program6 {
         stack.push(3);
         stack.push(4);
         stack.push(5);
-        System.out.println(stack.peek());
         /**
          * size is five but inserting 6 didn't give exception because now its
          * doubling its size so here now its size should be 10
          */
         stack.push(6);
-        System.out.println(stack.peek());
+        System.out.println("peek from stack: "+stack.peek());
+        System.out.println("pop From Stack: "+stack.pop());
+        System.out.println("peek from stack: " + stack.peek());
     }
 }
