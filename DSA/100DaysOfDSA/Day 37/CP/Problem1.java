@@ -8,7 +8,6 @@ public class Problem1 {
         // code here
         return helper(n, 0, n);
     }
-
     public static int helper(int n, int count, int div) {
         if (div == 0) {
             return count;
