@@ -11,7 +11,7 @@ public class Problem1 {
         if(leftSum==totalSum-leftSum-arr[index])return index;
         return helper(arr,totalSum,index+1,leftSum+arr[index]);
     }
-    public int sum(int[]arr,int index){
+    public int sum(int[] arr,int index){
         if(index==arr.length-1)return arr[index];
         return arr[index]+sum(arr,index+1);
     }
