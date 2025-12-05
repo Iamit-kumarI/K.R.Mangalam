@@ -4,7 +4,6 @@
 */
 public class Problem2 {
     public int towerOfHanoi(int n, int from, int to, int aux) {
-        // code here
         return helper(n);
     }
     public int helper(int n) {
