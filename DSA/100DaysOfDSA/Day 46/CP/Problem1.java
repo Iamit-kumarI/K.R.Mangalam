@@ -2,6 +2,8 @@
 * Problem:Sorted matrix
 * Solution:https://www.geeksforgeeks.org/problems/sorted-matrix2333/1(explanation ll write soon)
 */
+
+import java.util.Arrays;
 public class Problem1{
      int[][] sortedMatrix(int N, int Mat[][]) {
         // code here
