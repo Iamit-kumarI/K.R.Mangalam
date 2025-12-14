@@ -1,0 +1,8 @@
+./cat.png -> stay in current directory and search for the file 
+../cat.png -> go one level up and search for cat.png
+
+c:user/project/images/cat.png -> absolute path
+images/cat.png -> relative path search below from where we are(this is better) 
+here is why:👉🏼
+even if our project moves to somewhere else in that case absolute path will be change 
+but the relative path remaings same 
