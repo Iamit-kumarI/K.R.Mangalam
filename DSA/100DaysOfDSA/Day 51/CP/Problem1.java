@@ -3,7 +3,6 @@
 * Solution:https://www.geeksforgeeks.org/problems/print-diagonally1623/1
 */
 // User function Template for Java
-
 class Problem1 {
     public int[] antiDiagonalPattern(int[][] matrix) {
         // Code here
