@@ -20,13 +20,11 @@ public class Problem2 {
         return head;
     }
     class Node {
-
         int data;
         Node next;
-
-        Node(int x) {
-            data = x;
-            next = null;
+        Node(int d) {
+            this.data = d;
+            this.next = null;
         }
     }
 }

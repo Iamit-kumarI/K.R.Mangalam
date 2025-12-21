@@ -2,6 +2,7 @@
 * Problem:Delete Node at Position in Linked List
 * Solution:https://discuss.geeksforgeeks.org/comment/732fc498-3f62-46a6-b0f8-d7edddfa1989/practice
 */
+// package DAY 55.CP;
 class Problem1 {
     Node deleteNode(Node head, int x) {
         // code here
