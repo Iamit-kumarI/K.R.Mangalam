@@ -1,8 +1,8 @@
-package CP;
 /*
 * Problem:Reverse Linked List (iterative)
 * Solution:https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
 */
+package CP;
 public class Program2 {
     Node node=new Node();
     Node reverseList(Node head) {
