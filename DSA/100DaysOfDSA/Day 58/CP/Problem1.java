@@ -2,7 +2,7 @@
 * Problem:Merge Two Sorted Linked Lists
 * Solution:https://discuss.geeksforgeeks.org/comment/db2cca66-f3e8-46d3-8dac-9ffc0ae817d9/practice
 */
-package CP;//
+package CP;
 class Solution {
     Node node=new Node();
     Node sortedMerge(Node head1, Node head2) {
