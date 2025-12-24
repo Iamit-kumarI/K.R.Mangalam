@@ -1,5 +1,5 @@
 /*
-i think i have make this make in past many time if problem link dosent lead to 
+i think i have make this mistake in past many time if problem link dosent lead to 
 problem directly of on the page if i don't found the button says try this 
 problem so i never tried to visit on the links present on the table so this
 time i searches for the problem because i have solved this problem earlier and 
