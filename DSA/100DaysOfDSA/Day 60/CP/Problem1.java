@@ -6,7 +6,6 @@ package CP;
 class Problem1 {
     ListNode ListNode=new ListNode();
     int carry = 0;
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
