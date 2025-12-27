@@ -12,7 +12,7 @@ public class Problem1 {
         }
         // slow=(fast==null)?revList(slow):revList(slow.next);
         ListNode mid=revList(slow.next);
-        slow.next=null;
+        slow.next=null;//preventing cycle
         thead=head;
         while(mid!=null){
             ListNode next=thead.next;
