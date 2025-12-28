@@ -1,11 +1,14 @@
 package CP;
 
+import java.util.Stack;
+
 /*
 * Problem:430. Flatten a Multilevel Doubly Linked List
 * Solution:https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/submissions/1867252725/
  */
 public class Problem2 {
     Node Node=new Node();
+    //need to upsolve again
     public Node flatten(Node head) {
         if (head == null) {
             return head;
