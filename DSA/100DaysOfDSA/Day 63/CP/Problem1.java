@@ -4,7 +4,7 @@ package CP;
 * Solution:https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1867224422/
 */
 public class Problem1 {
-    ListNode ListNode=new ListNode();
+    Node node=new Node();
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int len = 0;
         ListNode thead = head;
