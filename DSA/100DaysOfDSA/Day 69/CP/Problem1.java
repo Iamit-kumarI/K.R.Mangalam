@@ -4,6 +4,7 @@ package CP;
 * Solution:https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/submissions/1872800972/
 */
 public class Problem1 {
+    ListNode listNode=new ListNode();
     public int getDecimalValue(ListNode head) {
         ListNode thead = head;
         int sum = 0, n = 0;
