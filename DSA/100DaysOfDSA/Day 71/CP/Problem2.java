@@ -10,7 +10,7 @@ class Problem2 {
         Node(int val){this.val=val;}
     }
     private Node head;
-    public MyLinkedList() {
+    public Problem2() {//MyLinkedList()
         head=null;
     }
     
