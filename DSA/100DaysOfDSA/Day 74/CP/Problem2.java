@@ -6,7 +6,7 @@ package CP;
 public class Problem2 {
     Node Node=new Node();
     public static Node moveToFront(Node head) {
-        // code here
+        // code here-
         if (head == null || head.next == null) {
             return head;
         }
