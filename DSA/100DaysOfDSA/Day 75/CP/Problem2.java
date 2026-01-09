@@ -3,11 +3,11 @@ package CP;
 * Problem:Implement Stack using Array
 * Solution:https://discuss.geeksforgeeks.org/comment/2419a3c0-b8d2-4479-93f7-5efcfd410e0b/practice
 */
-public class Problem2 {
+public class Problem2 {//use mystack
     private int[] arr;
     private int top = -1;
 
-    public void myStack(int n) {
+    public void myStack(int n) {//remove the return type its not required in constructor
         // Define Data Structures
         arr = new int[n];
     }
