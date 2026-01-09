@@ -3,10 +3,10 @@
 * Solution:https://discuss.geeksforgeeks.org/comment/1f015e34-7740-48a8-baaa-fbb079f96aee/practice
 */
 package CP;
-public class Problem1{
+public class Problem1{//user mystack
     Node node=new Node(0);
     private Node top;
-    public void myStack() {
+    public void myStack() {//remove the return type its not required in constructor
         // Initialize your data members
         this.top = null;
     }
