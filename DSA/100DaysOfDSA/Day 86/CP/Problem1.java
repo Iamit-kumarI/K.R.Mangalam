@@ -10,7 +10,7 @@ import java.util.Stack;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class NSE {
+public class Problem1{
     public static void main(String[] args) {
         int[] arr = {4, 8, 5, 2, 25};
         System.out.println(nextSmallerEle(arr));
