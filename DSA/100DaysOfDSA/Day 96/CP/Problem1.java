@@ -2,8 +2,6 @@
 * Problem: Rotten Oranges (matrix+queue basic) 
 * Solution: https://leetcode.com/problems/rotting-oranges/solutions/7533446/beats-100-java-solution-by-amitk300-vwxu
 */
-package Graph.DFS;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
