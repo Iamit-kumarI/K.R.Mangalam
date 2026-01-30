@@ -2,11 +2,10 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 /*
-* Problem: Stream First Non-repeating
+* Problem: First Unique Character in Stream (queue)
 * Solution: https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1
 */
 public class Problem2 {
-
     public static void main(String[] args) {
         String str = "aabc";
         System.out.println(firstNonRepeating(str));
