@@ -1,4 +1,4 @@
-package Assignments.LabAssignment1;
+package Leetcode.Assignments.LabAssignment1;
 
 import java.util.Scanner;
 
@@ -9,14 +9,17 @@ public class Task3 {
         int mark2=mark(sc);
         int mark3=mark(sc);
         int avg=(mark2+mark1+mark3)/3;
-        if(avg>85) System.out.println(" A Grade");
-        else if(avg>75) System.out.println(" B Grade");
-        else if(avg>55) System.out.println(" C Grade");
-        else if(avg>40) System.out.println(" D Grade");
+        System.out.println("======== Result ========");
+        System.out.println("Total :"+avg*3);
+        System.out.println("Average :"+avg);
+        if(avg>85) System.out.println("A Grade");
+        else if(avg>75) System.out.println("B Grade");
+        else if(avg>55) System.out.println("C Grade");
+        else if(avg>40) System.out.println("D Grade");
         else System.out.println(" Fail Try Again");
     }
     public static int mark(Scanner sc){
-        System.out.println("Enter Marks: ");
+        System.out.print("Enter Marks: ");
         int n=sc.nextInt();
         if(n<0||n>100){
             System.out.println("Mark Should be between 0 - 100");

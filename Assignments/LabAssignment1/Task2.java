@@ -1,36 +1,44 @@
-package Assignments.LabAssignment1;
+package Leetcode.Assignments.LabAssignment1;
 
 import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter Name: ");
-        String name=sc.next();
+        String name = sc.nextLine();
         System.out.print("Enter Age: ");
-        int age=age(sc);
-        System.out.print("Enter Program: ");
-        String program=program(sc);
-        System.out.print("Enter Registration NO: ");
-        String registrationNumber=regNo(sc);
-        System.out.println("Name : "+name+"\n "+"Age : "+age+"\n"+"Program : "+program+"\n"+"Registration Number: "+registrationNumber);
-    }
-    public static String program(Scanner sc){
-        String name=sc.next();
-        if(name.equals("MCA")||name.equals("BCA")||name.equals("MBA")) return name;
-        System.out.println("Program Avalible MCA/BCA/MBA");
-        return program(sc);
-    }
-    public static int age(Scanner sc){
-        int age=sc.nextInt();
-        if(age>=17)return age;
-        System.out.println("Age should be 17 or more than 17");
-        return age(sc);
-    }
-    public static String regNo(Scanner sc){
-        String str=sc.next();
-        if(!str.isEmpty())return str;
-        System.out.println("Registration No shouldn't be Empty");
-        return regNo(sc);
+        int age = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter Program (MCA/BCA/MBA): ");  String program = sc.nextLine();
+        System.out.print("Enter Registration Number: ");
+        String regNo = sc.nextLine();
+        if (age < 17) {
+            System.out.println("Invalid Age! Must be 17 or above.");  return;
+        }
+        if (regNo.isEmpty()) {
+            System.out.println("Registration number cannot be empty.");  return;
+        }
+        boolean validProgram = true;
+        switch (program.toUpperCase()) {
+            case "MCA":
+            case "BCA":
+            case "MBA":
+                break;
+            default:
+                validProgram = false;
+        }
+        if (!validProgram) {
+            System.out.println("Invalid Program! Must be MCA, BCA, or MBA.");  return;
+        }
+        System.out.println("\n+---------------------------------------+");
+        System.out.println("| STUDENT ID CARD                 |");  System.out.println("+---------------------------------------+");
+        System.out.printf("| Name : %-20s      |\n", name);
+        System.out.printf("| Age : %-20d         |\n", age);
+        System.out.printf("| Program : %-20s    |\n", program.toUpperCase());
+        System.out.printf("| Reg Number :%-20s|\n", regNo);
+        System.out.println("+---------------------------------------+");
+        System.out.println("| Status : VALID STUDENT |");
+        System.out.println("+---------------------------------------+");
     }
 }

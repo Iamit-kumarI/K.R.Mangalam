@@ -1,4 +1,4 @@
-package Assignments.LabAssignment3;
+package Leetcode.Assignments.LabAssignment3;
 
 public class Task7 {
 //    @AllArgsConstructor
@@ -45,20 +45,14 @@ public class Task7 {
         }
     }
     public static void main(String[] args) {
-//        Student student=new Student();
         Student student1=new Student("Amit",22,"MCA",2501560016L,new int[]{78,78,78,78,78});
         displayProfile(student1);
-        System.out.println(avg(student1));
         assignGrade(student1);
-        System.out.println(student1.getAge());
-        student1.setMarks(79,3);
-        System.out.println(student1.getMarks(3));
     }
     public static void displayProfile(Student student){
+        System.out.println("========== Student Profile ========");
         System.out.println("Name : "+student.name+"\n"+"Age : "+student.age+"\n"+"Program : "+student.program+"\n"+"Roll No: "+student.rollNo);
-        int avg=0;
-        for(int val:student.marks)avg+=val;
-        System.out.println("Avg : "+avg/student.marks.length);
+        System.out.println("Average : "+ avg(student));
     }
     public static int avg(Student student){
         int avg=0;
@@ -67,10 +61,10 @@ public class Task7 {
     }
     public static void assignGrade(Student student){
         int avg=avg(student);
-        if(avg>85) System.out.println(" A Grade");
-        else if(avg>75) System.out.println(" B Grade");
-        else if(avg>55) System.out.println(" C Grade");
-        else if(avg>40) System.out.println(" D Grade");
+        if(avg>85) System.out.println(" Grade  :  A ");
+        else if(avg>75) System.out.println("Grade  :  B");
+        else if(avg>55) System.out.println("Grade  :  C");
+        else if(avg>40) System.out.println("Grade  :  D");
         else System.out.println(" Fail Try Again");
     }
 }
