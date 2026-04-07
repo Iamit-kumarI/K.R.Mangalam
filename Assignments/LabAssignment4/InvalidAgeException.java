@@ -1,4 +1,4 @@
-package Assignments.LabAssignment4;
+package Leetcode.Assignments.LabAssignment4;
 
 public class InvalidAgeException extends RuntimeException {
     public InvalidAgeException(String message) {

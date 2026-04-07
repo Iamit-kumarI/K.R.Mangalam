@@ -1,4 +1,6 @@
-package Assignments.LabAssignment4;
+package Leetcode.Assignments.LabAssignment4;
+
+import java.sql.SQLOutput;
 
 public class Person {
     String name;
@@ -12,6 +14,7 @@ public class Person {
         this.age=age;
     }
     public void displayProfile(){
+        System.out.println(" ========== Profile Summary ======== ");
         System.out.println("Name : "+name+"\nAge : "+age);
     }
 }

@@ -1,8 +1,8 @@
-package Assignments.LabAssignment4;
+package Leetcode.Assignments.LabAssignment4;
 
 public class ScholarStudent extends Student{
     double scholarShip;
-    ScholarStudent(String name,int age,String program,long rollNo,int[]arr,double scholarShip){
+    public ScholarStudent(String name, int age, String program, long rollNo, int[] arr, double scholarShip){
         super(name,age,program,rollNo,arr);
         this.scholarShip=scholarShip;
     }

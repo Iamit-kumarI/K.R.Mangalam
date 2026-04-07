@@ -1,6 +1,4 @@
-package Assignments.LabAssignment4;
-
-import java.util.function.Supplier;
+package Leetcode.Assignments.LabAssignment4;
 
 public class Student extends Person{
     String program;
@@ -28,6 +26,10 @@ public class Student extends Person{
         else if(avg>50)return "C";
         else if(avg>40)return "D";
         else return "Try Again";
+    }
+    public void getMarks(int index){
+        if(index<0||index>=5)throw new ArrayOutOfBound("Index should be between 0<=index<=5");
+        System.out.println(marks[index]);
     }
     @Override
     public void displayProfile(){

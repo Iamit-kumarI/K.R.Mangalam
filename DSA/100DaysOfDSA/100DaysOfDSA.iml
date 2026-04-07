@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Day 10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 36" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 57" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 58" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 59" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 60" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 61" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 63" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 64" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 66" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 67" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 68" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 69" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 70" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 71" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 72" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 73" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 74" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 75" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day 91" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,4 +1,4 @@
-package Assignments.LabAssignment4;
+package Leetcode.Assignments.LabAssignment4;
 
 public class InvalidMarksException extends RuntimeException {
     public InvalidMarksException(String message) {
